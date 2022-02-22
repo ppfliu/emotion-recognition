@@ -11,16 +11,21 @@ The work has been published in INTERSPEECH-2020, please refer to the [paper](htt
 
 ## Source Code
 This repository contains the source code for proposed group gated fusion (GGF) layer, as well as other works such as the tensor fusion layer (TFL) from the paper "Tensor Fusion Network for Multimodal Sentiment Analysis" and the gated multimodal
-units (GMU) layer from the paper "Gated Multimodal Units for Information Fusion". The code is implemented based on Tensorflow (tensorflow==2.0.0), you may use these layers directly in your model.
+units (GMU) layer from the paper "Gated Multimodal Units for Information Fusion". The code is implemented based on Tensorflow, you may use these layers directly in your model.
 
 
-### How to Run
+### How to use the layers?
 ```
 python ggf.py # An example of how to use the group gated fusion (GGF) layer
 python tfl.py # An example of how to use the tensor fusion layer (TFL) layer
 python gmu.py # An example of how to use the gated multimodal units (GMU) layer
 ```
 
+### How to run the experiments?
+Please request the IEMOCAP dataset from https://sail.usc.edu/iemocap/ and put the dataset in the current folder. The batch script can be run as follows:
+```
+bash batch.sh
+```
 
 ## Citation
 If you use the released source code in your work, please cite the following paper:
