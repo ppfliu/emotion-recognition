@@ -22,7 +22,9 @@ python gmu.py # An example of how to use the gated multimodal units (GMU) layer
 ```
 
 ### How to run the experiments?
-Please request the IEMOCAP dataset from https://sail.usc.edu/iemocap/ and put the dataset in the current folder. The batch script can be run as follows:
+Please request the IEMOCAP dataset from https://sail.usc.edu/iemocap/ and put the dataset in the current folder.
+You also need to download the GloVe vectors from https://nlp.stanford.edu/projects/glove/ and put them under the glove folder.
+The batch script can be run as follows:
 ```
 bash batch.sh
 ```
